@@ -84,6 +84,14 @@ form {
   border-top: 1px solid teal;
 }
 
+.odd-shadow{
+  box-shadow: 5px 5px 5px 0 rgb(0, 128, 128, 1);
+}
+
+.even-shadow{
+  box-shadow: 5px 5px 5px 0 rgb(228, 238, 238);
+}
+
 #add-btn {
   width: 25%;
   align-self: flex-end;
@@ -110,6 +118,19 @@ form {
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
+  transition: .5s ease-in-out;
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -ms-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+}
+
+.remove-btn:hover{
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
 }
 
 .book-list {

@@ -6,9 +6,11 @@ const changeColor = () => {
     elId *= 1;
     if (elId % 2 === 0) {
       el.classList.add('even-white');
+      el.classList.add('even-shadow');
     }
     if (elId % 2 !== 0) {
       el.classList.add('odd-teal');
+      el.classList.add('odd-shadow');
     }
   });
 
@@ -18,9 +20,11 @@ const changeColor = () => {
 
     if (btnId % 2 === 0) {
       el.classList.add('odd-teal');
+      el.classList.add('odd-shadow');
     }
     if (btnId % 2 !== 0) {
       el.classList.add('even-white');
+      el.classList.add('even-shadow');
     }
   });
 };

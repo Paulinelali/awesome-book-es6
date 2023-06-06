@@ -19,9 +19,9 @@ const stockDom = () => {
     let btnIdentity = 0;
     shelfToArr.forEach((el) => {
       const book = `
-            <li class="book-list">
+            <li class="book-list" id ="${btnIdentity}">
                 <div><span class="book-title">"${el.title}"</span> by <span class="book-author">${el.author}</span></div>
-                <button class="remove-btn "id ="${btnIdentity}">Remove</button>
+                <button class="remove-btn " id ="${btnIdentity}">Remove</button>
             </li>`;
       btnIdentity += 1;
       const div = document.createElement('div');
