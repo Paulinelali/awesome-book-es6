@@ -1,4 +1,5 @@
 import stockDom from './stockDOM.js';
+import changeColor from './colorChanger.js';
 
 function removeBook() {
   const removeButtons = document.querySelectorAll('.remove-btn');
@@ -20,6 +21,7 @@ function removeBook() {
       localStorage.setItem('bookList', inToShelf);
       stockDom();
       removeBook();
+      changeColor();
     });
   });
 }
