@@ -1,6 +1,7 @@
 import dateNow from './date.js';
 import contactPage from './contactPage.js';
 import stockDom from './stockDOM.js';
+import changeColor from './colorChanger.js';
 import {
   buildForm, noRefresh, noEmptyField, onSubmitBtn,
 } from './form.js';
@@ -30,6 +31,7 @@ const changePage = () => {
       if (e.target.id === 'list') {
         stockDom();
         removeBook();
+        changeColor();
       }
       if (e.target.id === 'add-new') {
         buildForm(pageWrapper);

@@ -1,7 +1,9 @@
 // build form
 const buildForm = (pageWrapper) => {
   pageWrapper.innerHTML = '';
-  const formField = `<form action="" id="book-form">
+  const formField = `
+    <h2 class="page-title">Add a new book</h2>
+    <form action="" id="book-form">
         <input type="text" placeholder="Title" id="book-title" > <br>
         <input type="text" placeholder="Author" id="book-author"> <br>
         <button type="submit" id="add-btn">Add</button>
@@ -27,7 +29,11 @@ function noEmptyField() {
   setInterval(() => {
     if (bookTitle.value < 1 || bookAuthor.value < 1) {
       btn.disabled = true;
-    } else { btn.disabled = false; }
+      btn.classList.add('grey-bg');
+    } else {
+      btn.disabled = false;
+      btn.classList.remove('grey-bg');
+    }
   }, 250);
 }
 

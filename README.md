@@ -5,24 +5,24 @@
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Awesome Books ](#-awesome-books-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -40,9 +40,10 @@ Awesome Books is a simple web application built to showcase JavaScript objects, 
 
 ### Key Features <a name="key-features"></a>
 
-- Function to add books to a list
-- Function to remove books from the list
-- Preserving book list in local storage.
+- Add book: enter book title and author to add book
+- Storage: added books are stored in the local storage
+- Remove book: view books and click remove to remove book
+- Free local storage: removed books are removed from local storage
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -50,14 +51,14 @@ Awesome Books is a simple web application built to showcase JavaScript objects, 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-N/A
+[See live project](https://paulinelali.github.io/awesome-book-es6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
+If you are interested in this project, you can get a copy and run locally on your system
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
@@ -71,32 +72,21 @@ None
 Clone this repository to your desired folder:
 ```sh
   cd my-folder
-  git clone git@github.com:Paulinelali/awesome-book.git
+  git clone [git@github.com:Paulinelali/awesome-book.git](https://github.com/Paulinelali/awesome-book-es6)
 ```
 
 ### Install
 
-Install this project with:
-
-None.
+This project does not require installation.
 
 ### Usage
 
-To run the project, execute the following command:
+Because there's no need for installation, you just have to open the index.html file in your browser.
 
-None.
-
-### Run tests
-
-To run tests, run the following command:
-
-N/A
 
 ### Deployment
 
-You can deploy this project using:
-
-N/A
+You can deploy this project by getting a copy for yourself
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,7 +94,7 @@ N/A
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Ayomide Sunday**
+👤 **Ayomide Sunday Emmanuel**
 
 - GitHub: [@paulinelali](https://github.com/Paulinelali)
 - LinkedIn: [LinkedIn](LinkedIn: https://www.linkedin.com/in/ayomide-sunday-22ab25266/)
@@ -121,8 +111,8 @@ N/A
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [x] More styling
-- [x] Navigation
+- [x] More pages: additional pages might be added in future
+- [x] DataBase: I might be adding database in future
 - [ ] Add star rating for books
 
 
@@ -132,7 +122,7 @@ N/A
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
+Contributions requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 

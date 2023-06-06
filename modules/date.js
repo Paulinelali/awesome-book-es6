@@ -5,4 +5,4 @@ const dateNow = () => {
   return currentDate;
 };
 
-export default { dateNow };
+export default dateNow;

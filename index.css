@@ -49,3 +49,105 @@ body {
 .hide {
   display: none;
 }
+
+.page-title {
+  text-align: center;
+  font-size: 2rem;
+  margin: 5% 0 2% 0;
+}
+
+.contact-page-wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+.padded-ul {
+  padding-left: 4%;
+  margin-top: 2%;
+}
+
+form {
+  width: 30%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+#book-title,
+#book-author {
+  width: 100%;
+  height: 30px;
+  padding: 0 5px;
+  box-shadow: 5px 5px 5px 0 rgb(0, 128, 128, 1);
+  border: 0;
+  border-top: 1px solid teal;
+}
+
+.odd-shadow {
+  box-shadow: 5px 5px 5px 0 rgb(0, 128, 128, 1);
+}
+
+.even-shadow {
+  box-shadow: 5px 5px 5px 0 rgb(228, 238, 238);
+}
+
+#add-btn {
+  width: 25%;
+  align-self: flex-end;
+  height: 30px;
+  border: 0;
+  background-color: teal;
+  color: white;
+  font-size: 1.2em;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.remove-btn {
+  width: 100px;
+  align-self: flex-end;
+  height: 30px;
+  border: 0;
+  font-size: 1.2em;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  transition: 0.5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+}
+
+.remove-btn:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.book-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 25px;
+}
+
+.grey-bg {
+  background-color: grey !important;
+}
+
+.even-white {
+  background-color: white !important;
+}
+
+.odd-teal {
+  background-color: teal !important;
+  color: white;
+}

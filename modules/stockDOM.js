@@ -11,19 +11,26 @@ const stockDom = () => {
         `;
   }
   if (shelf.length > 4) {
-    pageWrapper.innerHTML = '';
+    pageWrapper.innerHTML = '<h2 class="page-title">All awesome books</h2>';
+    const unOrderList = document.createElement('ul');
     const shelfToArr = JSON.parse(shelf);
 
     let identity = 0;
+    let btnIdentity = 0;
     shelfToArr.forEach((el) => {
       const book = `
-            <span class="book-title">${el.title}</span> by <span class="book-author">${el.author}</span>
-            <button class="remove-btn">Remove</button>`;
+            <li class="book-list" id ="${btnIdentity}">
+                <div><span class="book-title">"${el.title}"</span> by <span class="book-author">${el.author}</span></div>
+                <button class="remove-btn " id ="${btnIdentity}">Remove</button>
+            </li>`;
+      btnIdentity += 1;
       const div = document.createElement('div');
       div.classList.add('book-inner-wrapper');
       div.id = identity;
       div.innerHTML = book;
-      pageWrapper.appendChild(div);
+      unOrderList.classList.add('book-list-wrapper');
+      unOrderList.appendChild(div);
+      pageWrapper.appendChild(unOrderList);
       identity += 1;
     });
   }
